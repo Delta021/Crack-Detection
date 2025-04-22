@@ -168,4 +168,4 @@ with gr.Blocks(title="Prem's Crack Detection") as demo:
     reset_button.click(fn=reset_feedback, outputs=graph_output)
 
 # Uncomment this to run
-# demo.launch()
+demo.launch()
